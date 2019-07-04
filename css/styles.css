@@ -53,3 +53,23 @@ fieldset{
 li{
   justify-self: center;
 }
+
+/* LIGHTBOX CUSTOM STYLING */
+
+.lightbox .lb-image{
+  border-radius: 0;
+  border: none;
+}
+
+.lb-dataContainer{
+  margin: 50px auto;
+}
+
+.lb-data .lb-details{
+  width: 100%;
+  text-align: center;
+}
+
+.lb-data .lb-close{
+  display: none;
+}
