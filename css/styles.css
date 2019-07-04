@@ -4,6 +4,48 @@
 
 body{
   margin: 0;
+  width: 100%;
   font-family:'Open Sans', sans-serif;
-  font-size: 1ems;
+  font-size: 1em;
+}
+
+.main-wrapper{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+fieldset{
+  border: none;
+}
+
+.input{
+  display: block;
+  width: 300px;
+  height: 30px;
+  margin: 30px auto;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+}
+
+.submit-btn{
+  display: none;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-gap: 40px;
+  list-style: none;
+  padding: 0;
+}
+
+
+li{
+  grid-column: ;
+  grid-row: ;
 }
