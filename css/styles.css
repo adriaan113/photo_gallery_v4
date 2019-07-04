@@ -12,6 +12,7 @@ body{
 .main-wrapper{
   display: flex;
   width: 90%;
+  max-width: 1050px;
   margin: 0 auto;
   justify-content: center;
   flex-direction: column;
@@ -24,9 +25,10 @@ fieldset{
 
 .input{
   display: block;
-  width: 300px;
-  height: 30px;
+  width: 400px;
+  height: 40px;
   margin: 30px auto;
+  padding: 0 10px;
   border: 1px solid lightgrey;
   border-radius: 4px;
 }
@@ -39,13 +41,12 @@ fieldset{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3,1fr);
-  grid-gap: 40px;
+  grid-gap: 60px;
   list-style: none;
   padding: 0;
 }
 
 
 li{
-  grid-column: ;
-  grid-row: ;
+  justify-self: center;
 }
