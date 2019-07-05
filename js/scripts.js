@@ -1,4 +1,23 @@
-const $test = $('.input').val();
+
+let title;
+let test;
+
+$('a').each(function(){
+  title= $(this).attr('data-title');
+//  title= title.toLowerCase();
+  console.log(title);
+});
 
 
-$('.submit-btn').click(console.log($test));
+$('.input').on('keydown',function(){
+
+  test = $('.input').val();
+  test = test.toLowerCase();
+  console.log(test);
+
+  // if(test = true){
+  //     $('li').show();
+  //   }else{
+  //     $('li').hide();
+  //   }
+});

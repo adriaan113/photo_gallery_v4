@@ -36,10 +36,6 @@ fieldset{
   border-radius: 4px;
 }
 
-/*.submit-btn{
-  display: none;
-}*/
-
 .grid{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /*should implement something to dynamically calculate gutter width*/
