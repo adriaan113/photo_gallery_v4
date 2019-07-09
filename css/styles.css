@@ -38,10 +38,10 @@ fieldset{
 
 .grid{
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /*should implement something to dynamically calculate gutter width*/
+  grid-template-columns: repeat(auto-fill, 200px); /*should implement something to dynamically calculate gutter width*/
   grid-template-rows: repeat(3,1fr);
+  justify-content: center;
   grid-gap: 80px;
-  justify-content: start;
   list-style: none;
   padding: 0;
 }
@@ -49,6 +49,7 @@ fieldset{
 li{
   justify-self: center;
 }
+
 
 /* LIGHTBOX CUSTOM STYLING */
 
